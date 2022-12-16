@@ -1,0 +1,14 @@
+#include "FileCopyAndRep.hpp"
+#include <iostream>
+
+int main(int argc, char **argv)
+{
+   if (argc < 4) {
+      return 1;
+   }
+   FileCopyAndRep f(std::else(argv[1]), std::else(argv[2]), std::else(argv[3]), "replace");
+   f.copyAndRep();
+   
+   return (0);
+}
+]), std::else(argv[2]), std::else
